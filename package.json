@@ -1,13 +1,25 @@
 {
   "name": "html-liquid-preview",
-  "displayName": "html-liquid-preview",
-  "description": "Produces a live rendered preview of the liquid templates output html",
-  "version": "0.0.1",
+  "displayName": "HTML Liquid Preview",
+  "description": "Live preview for HTML Liquid Templates",
+  "version": "0.1.0",
+  "publisher": "shortall",
   "engines": {
     "vscode": "^1.96.0"
   },
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shortall/vscode-html-liquid-preview"
+  },
   "categories": [
     "Other"
+  ],
+  "keywords": [
+    "Liquid",
+    "Template",
+    "Live Preview",
+    "HTML"
   ],
   "activationEvents": [],
   "main": "./dist/extension.js",
