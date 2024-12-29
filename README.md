@@ -7,11 +7,11 @@ This extension was inspired by [YE Quing's](https://github.com/yq314) - [Braze L
 
 Which in turn was inspired by [Trevor Kirchner's](https://github.com/kirchner-trevor) - [Shopify Liquid Preview](https://github.com/kirchner-trevor/vscode-shopify-liquid-preview).
 
-This extension is designed to be complimentary to Liquid language support extensions such as [Liquid](https://marketplace.visualstudio.com/items?itemName=sissel.shopify-liquid) and [Shopify Liquid](https://marketplace.visualstudio.com/items?itemName=Shopify.theme-check-vscode) which provide features such as syntax highlighting and auto-completion.
+This extension is designed to be complimentary to Liquid language support extensions such as [Liquid](https://marketplace.visualstudio.com/items?itemName=sissel.shopify-liquid) and [Shopify Liquid](https://marketplace.visualstudio.com/items?itemName=Shopify.theme-check-vscode) which provide features including syntax highlighting and auto-completion.
 
 ## Purpose
 
-When editing a template, the output of which is HTML, I like the live rendered preview you get with the Braze plugin. However I didn't need the Braze extensions and I did want it to support all the standard Liquid syntax. 
+When editing a template the output of which is HTML, I like the live rendered preview you get with the Braze plugin. However I didn't need the Braze extensions and I did want it to support all the standard Liquid syntax. 
 
 I also tended to have some issues with other extensions in terms of formatting. Sometimes they auto-format when I don't want them to. Sometimes they format the liquid but not the HTML. I've added a format option as a separate command that can be run manually so as not to interfere with any other formatter that may have already been setup.
 
@@ -26,6 +26,8 @@ I also tended to have some issues with other extensions in terms of formatting. 
 Use the keybinding `ctrl+shift+p` to launch the command pallet. this extension makes 2 new commands available:
 - HTML Liquid: Preview
 - HTML Liquid: Format Template
+
+![demo](demo.gif)
 
 ## Running locally
 
