@@ -7,9 +7,13 @@ This extension was inspired by [YE Quing's](https://github.com/yq314) - [Braze L
 
 Which in turn was inspired by [Trevor Kirchner's](https://github.com/kirchner-trevor) - [Shopify Liquid Preview](https://github.com/kirchner-trevor/vscode-shopify-liquid-preview).
 
-For my main use case of liquid it's handy to get the live rendered output you get with the Braze plugin. However I didn't need the braze extensions and I did want it to support all the standard liquid syntax. 
+This extension is designed to be complimentary to Liquid language support extensions such as [Liquid](https://marketplace.visualstudio.com/items?itemName=sissel.shopify-liquid) and [Shopify Liquid](https://marketplace.visualstudio.com/items?itemName=Shopify.theme-check-vscode) which provide features such as syntax highlighting and auto-completion.
 
-I also liked the idea of being able to format the template. That functionality is included in the Shopify Liquid Preview extension however it wasn't working for me. I've added it as a separate command so as not to interfere with any other formatter that may have already been setup.
+## Purpose
+
+When editing a template, the output of which is HTML, I like the live rendered preview you get with the Braze plugin. However I didn't need the Braze extensions and I did want it to support all the standard Liquid syntax. 
+
+I also tended to have some issues with other extensions in terms of formatting. Sometimes they auto-format when I don't want them to. Sometimes they format the liquid but not the HTML. I've added a format option as a separate command that can be run manually so as not to interfere with any other formatter that may have already been setup.
 
 ## Features
 
@@ -31,4 +35,4 @@ npm install
 npm run test
 ```
 
-Test your extension with [Visual Studio Code](https://code.visualstudio.com/api/working-with-extensions/testing-extension)
+See [Testing Extensions](https://code.visualstudio.com/api/working-with-extensions/testing-extension) for more info on testing VS Code extensions.
