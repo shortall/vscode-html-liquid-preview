@@ -2,7 +2,7 @@
   "name": "html-liquid-preview",
   "displayName": "HTML Liquid Preview",
   "description": "Live preview for HTML Liquid Templates",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "publisher": "shortall",
   "engines": {
     "vscode": "^1.96.0"
